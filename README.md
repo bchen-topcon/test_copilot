@@ -70,7 +70,7 @@ pip install pytest
 
 Run tests:
 ```bash
-pytest test_calculator.py -v
+python -m pytest test_calculator.py -v
 ```
 
 ### Building C++ Code
