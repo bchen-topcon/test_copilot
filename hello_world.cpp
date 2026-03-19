@@ -9,3 +9,12 @@ int main() {
     #this is a comments
     return 0;
 }
+
+class TestClass_Naming
+{
+    void Function1()
+    {
+        
+    }
+
+};
