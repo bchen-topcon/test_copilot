@@ -8,8 +8,8 @@ This is a sandbox/test repository used to evaluate and develop AI coding agent w
 
 ## Coding Standards Reference
 
-All code in this repository must follow the conventions defined in [`docs/coding-standards.md`](docs/coding-standards.md).
-For Python-specific conventions see [`docs/python-coding-standards.md`](docs/python-coding-standards.md); for C/C++ see [`docs/cpp-coding-standards.md`](docs/cpp-coding-standards.md).
+All code in this repository must follow the conventions defined in [`docs/coding-standards.md`](/docs/coding-standards.md).
+For Python-specific conventions see [`docs/python-coding-standards.md`](/docs/python-coding-standards.md); for C/C++ see [`docs/cpp-coding-standards.md`](/docs/cpp-coding-standards.md).
 
 ## Code Review Priorities
 
@@ -31,4 +31,4 @@ When reviewing pull requests, focus on the following areas in order of importanc
 
 ## Commit Message Convention
 
-Follow the commit message format defined in [`docs/contributing.md`](docs/contributing.md).
+Follow the commit message format defined in [`docs/contributing.md`](/docs/contributing.md).
