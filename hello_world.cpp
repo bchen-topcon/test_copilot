@@ -5,12 +5,3 @@ int main() {
     // this is a comment
     return 0;
 }
-
-class TestClassNaming
-{
-    void function1()
-    {
-
-    }
-
-};
