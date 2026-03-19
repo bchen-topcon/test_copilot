@@ -2,5 +2,6 @@
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
+    // this is a comment
     return 0;
 }

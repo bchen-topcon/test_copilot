@@ -19,7 +19,7 @@ For general standards that apply to all languages, see [`coding-standards.md`](c
 - **Classes and structs**: `UpperCamelCase` (e.g., `MyWidget`, `DataProcessor`).
 - **Functions and variables**: `lowerCamelCase` (e.g., `doSomething()`, `myVariable`).
 - **Constants and macros**: `UPPER_SNAKE_CASE` (e.g., `MAX_BUFFER_SIZE`).
-- **File names**: lowercase, matching the class name (e.g., `mywidget.cpp`, `mywidget.h`).
+- **File names**: `PascalCase` matching the primary class name (e.g., `MyWidget` → `MyWidget.h`, `MyWidget.cpp`; `DataProcessor` → `DataProcessor.h`, `DataProcessor.cpp`).
 - **Acronyms in names**: treat as a single word in camel case (e.g., `XmlParser`, not
   `XMLParser`).
 
