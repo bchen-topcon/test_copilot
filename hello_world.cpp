@@ -2,7 +2,9 @@
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
-    if hello:
-        print("no");
+    bool hello = false;
+    if (hello) {
+        std::cout << "no" << std::endl;
+    }
     return 0;
 }
