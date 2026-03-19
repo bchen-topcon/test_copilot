@@ -32,7 +32,7 @@ This document defines the coding style and conventions for this repository.
 |---------|------------|---------|
 | Files (docs) | `kebab-case` | `coding-standards.md` |
 | Files (Python) | `snake_case` | `user_service.py` |
-| Files (C/C++) | `snake_case` or `PascalCase` | `user_service.cpp` |
+| Files (C/C++) | `PascalCase` matching the primary class name | `MyWidget.cpp` |
 | Variables | `snake_case` (Python), `camelCase` (JS) | `user_id`, `userId` |
 | Constants | `UPPER_SNAKE_CASE` | `MAX_RETRY_COUNT` |
 | Classes | `PascalCase` | `UserService` |
