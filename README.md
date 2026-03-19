@@ -105,4 +105,6 @@ Please see [docs/contributing.md](docs/contributing.md) for detailed contributio
 
 ## License
 
-See repository configuration for license details.
+No explicit open-source license is currently specified for this repository. All rights are
+reserved by the repository owners; please contact the maintainers before reusing or
+distributing this code.
