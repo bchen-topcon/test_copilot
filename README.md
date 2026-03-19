@@ -97,7 +97,7 @@ All code in this repository follows the standards documented in `docs/`:
 
 ### Summary
 - **Indentation:** 4 spaces (Python/C/C++); 2 spaces (YAML/JSON/HTML)
-- **Line length:** Max 100 characters
+- **Max line length (code):** 100 characters
 - **Line endings:** LF (`\n`)
 - **Naming:** `snake_case` (Python vars/functions), `PascalCase` (classes), `UPPER_SNAKE_CASE` (constants)
 
