@@ -95,12 +95,6 @@ All code in this repository follows the standards documented in `docs/`:
 | C++ standards       | [docs/cpp-coding-standards.md](docs/cpp-coding-standards.md) |
 | Agent workflows     | [AGENTS.md](AGENTS.md) |
 
-### Summary
-- **Indentation:** 4 spaces (Python/C/C++); 2 spaces (YAML/JSON/HTML)
-- **Max line length (code):** 100 characters
-- **Line endings:** LF (`\n`)
-- **Naming:** `snake_case` (Python vars/functions), `PascalCase` (classes), `UPPER_SNAKE_CASE` (constants)
-
 ## Contributing
 
 Please see [docs/contributing.md](docs/contributing.md) for detailed contribution guidelines.

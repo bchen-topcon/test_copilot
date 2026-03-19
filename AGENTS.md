@@ -13,23 +13,7 @@ This file provides guidance for AI coding agents (e.g., GitHub Copilot, Claude, 
 
 ## Directory Structure
 
-```
-test_copilot/
-├── AGENTS.md                  # This file — AI agent guidance
-├── README.md                  # Human-facing project overview
-├── .gitignore                 # Files excluded from version control
-├── .github/
-│   ├── ISSUE_TEMPLATE/
-│   │   ├── bug_report.md      # Template for bug reports
-│   │   └── feature_request.md # Template for feature requests
-│   └── PULL_REQUEST_TEMPLATE.md  # Template for pull requests
-├── docs/
-│   ├── architecture.md        # System architecture overview
-│   ├── contributing.md        # Contribution guidelines
-│   └── coding-standards.md   # Coding style and conventions
-└── src/
-    └── README.md              # Placeholder for source code
-```
+See [README.md](README.md) for the full, up-to-date project structure.
 
 ---
 
@@ -52,20 +36,7 @@ test_copilot/
 
 ### Commit Messages
 
-Use the following format for commit messages:
-
-```
-<type>: <short description>
-
-[optional body with more detail]
-```
-
-Types: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`
-
-Examples:
-- `feat: add user authentication endpoint`
-- `fix: correct null pointer in parser`
-- `docs: update architecture diagram`
+Follow the commit message format defined in [docs/contributing.md](docs/contributing.md).
 
 ### Pull Requests
 
@@ -77,13 +48,7 @@ Examples:
 
 ## Key Conventions
 
-| Concern              | Convention                                      |
-|----------------------|-------------------------------------------------|
-| Branch naming        | `feature/<name>`, `fix/<name>`, `docs/<name>`  |
-| File naming          | `kebab-case` for docs, language-native for code |
-| Indentation          | 2 spaces (YAML/JSON), 4 spaces (Python/C/C++)  |
-| Line endings         | LF (`\n`)                                       |
-| Max line length      | 100 characters                                  |
+Follow the coding conventions in [docs/coding-standards.md](docs/coding-standards.md) (formatting, naming, documentation, and security) and the branch naming and workflow conventions in [docs/contributing.md](docs/contributing.md).
 
 ---
 
@@ -98,9 +63,13 @@ Examples:
 
 ## Testing
 
-There is currently no automated test suite. When tests are added:
+Unit tests live in files prefixed with `test_` (e.g., `test_calculator.py`). Run tests with:
 
-- Place unit tests alongside the source files or in a `tests/` directory.
+```bash
+python -m pytest
+```
+
+- Place new unit tests alongside the source files or in a `tests/` directory.
 - Run all tests before submitting a pull request.
 - Ensure no existing tests are broken by your changes.
 
