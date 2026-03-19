@@ -8,15 +8,8 @@ This is a sandbox/test repository used to evaluate and develop AI coding agent w
 
 ## Coding Standards Reference
 
-All code in this repository must follow the conventions defined in [`docs/coding-standards.md`](docs/coding-standards.md). Key highlights:
-
-- **Indentation:** 4 spaces for Python and C/C++; 2 spaces for YAML, JSON, and HTML.
-- **Max line length:** 100 characters.
-- **Line endings:** LF (`\n`).
-- **Naming:** `snake_case` for Python variables and functions; `PascalCase` for classes; `UPPER_SNAKE_CASE` for constants.
-- **Documentation:** All public functions and classes must have docstrings or doc comments.
-- **No dead code:** Remove commented-out code rather than leaving it in place.
-- **No secrets:** Never commit credentials, API keys, or tokens.
+All code in this repository must follow the conventions defined in [`docs/coding-standards.md`](/docs/coding-standards.md).
+For Python-specific conventions see [`docs/python-coding-standards.md`](/docs/python-coding-standards.md); for C/C++ see [`docs/cpp-coding-standards.md`](/docs/cpp-coding-standards.md).
 
 ## Code Review Priorities
 
@@ -38,10 +31,4 @@ When reviewing pull requests, focus on the following areas in order of importanc
 
 ## Commit Message Convention
 
-Commit messages must follow the format:
-
-```
-<type>: <short description>
-```
-
-Types: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`
+Follow the commit message format defined in [`docs/contributing.md`](/docs/contributing.md).
