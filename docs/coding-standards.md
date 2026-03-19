@@ -72,24 +72,9 @@ This document defines the coding style and conventions for this repository.
 
 ---
 
-## Python-Specific Standards
+## Language-Specific Standards
 
-- Follow **PEP 8** conventions.
-- Use type hints for all function signatures where practical; avoid `Any` unless genuinely unavoidable.
-- Every public function and class **must** have a docstring (Google-style or reStructuredText-style, consistently within a file).
-- Use specific exception types rather than bare `except:` or `except Exception:`.
-- Order imports: standard library → third-party → local, each group separated by a blank line.
-- Do not use wildcard imports (`from module import *`).
-- Unit tests live in files prefixed with `test_` and are run with `python -m pytest`.
+Detailed, language-specific coding standards are maintained in separate documents:
 
----
-
-## C/C++-Specific Standards
-
-- Use `PascalCase` for class and struct names; `snake_case` for functions and variables; `UPPER_SNAKE_CASE` for macros and compile-time constants.
-- Every public function and class **must** have a Doxygen-style doc comment describing parameters, return values, and side effects.
-- Prefer RAII and smart pointers (`std::unique_ptr`, `std::shared_ptr`) over raw pointers; avoid manual `new`/`delete`.
-- Avoid unsafe functions (e.g., `strcpy`, `sprintf`) — use their bounded equivalents (e.g., `strncpy`, `snprintf`).
-- Use exceptions or return codes consistently within a module — do not mix both styles.
-- Prefer modern C++ features (C++11 and later): range-based for, `auto`, lambdas, `nullptr` over `NULL`.
-- Use the standard library (`<algorithm>`, `<vector>`, etc.) instead of reinventing common operations.
+- **Python** — [`python-coding-standards.md`](python-coding-standards.md)
+- **C/C++** — [`cpp-coding-standards.md`](cpp-coding-standards.md)
