@@ -23,6 +23,7 @@ test_copilot/
 │   │   ├── bug_report.md              # Bug report template
 │   │   └── feature_request.md         # Feature request template
 │   └── PULL_REQUEST_TEMPLATE.md       # PR template
+├── custom-instructions/               # Additional AI assistant instructions
 ├── docs/
 │   ├── architecture.md                # System architecture
 │   ├── contributing.md                # Contribution workflow
