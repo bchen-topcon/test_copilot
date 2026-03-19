@@ -6,9 +6,9 @@ int main() {
     return 0;
 }
 
-class TestClass_Naming
+class TestClassNaming
 {
-    void Function1()
+    void function1()
     {
         
     }
