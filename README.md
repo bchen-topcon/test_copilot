@@ -86,7 +86,7 @@ g++ hello_world.cpp -o hello_world
 All code in this repository follows the standards documented in `docs/`:
 
 | Convention          | Reference                                  |
-|---------------------|-----|
+| ---                 | ---                                        |
 | General standards   | [docs/coding-standards.md](docs/coding-standards.md) |
 | Python standards    | [docs/python-coding-standards.md](docs/python-coding-standards.md) |
 | C++ standards       | [docs/cpp-coding-standards.md](docs/cpp-coding-standards.md) |
