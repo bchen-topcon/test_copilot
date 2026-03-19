@@ -69,3 +69,12 @@ This document defines the coding style and conventions for this repository.
 - Never commit secrets, credentials, API keys, or tokens.
 - Validate all external inputs.
 - Follow the principle of least privilege.
+
+---
+
+## Language-Specific Standards
+
+Detailed, language-specific coding standards are maintained in separate documents:
+
+- **Python** — [`python-coding-standards.md`](python-coding-standards.md)
+- **C/C++** — [`cpp-coding-standards.md`](cpp-coding-standards.md)
