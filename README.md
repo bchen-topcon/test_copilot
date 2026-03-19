@@ -10,6 +10,8 @@ The project contains sample code in multiple languages, comprehensive documentat
 
 ## Project Structure
 
+The following is a partial view of the top-level project structure and is not exhaustive.
+
 ```
 test_copilot/
 ├── AGENTS.md                          # AI agent guidance and workflows
